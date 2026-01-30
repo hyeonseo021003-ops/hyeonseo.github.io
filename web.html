@@ -1,0 +1,38 @@
+<!DOCTYPE html> <!-- for select version of html -->
+<html> <!-- html base tag -->
+    <head> <!-- for website meta data + css file linker win32: #include, #pragma-->
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Sample</title>
+    
+
+        <!-- 내부스타일 시트 -->
+        <style>
+            a {
+                font-size:9px;
+                color:#004fff;
+                text-decoration: none;
+                border:2px solid #004FFF;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <header> <!-- win32: title bar-->
+                <h1>First header </h1> <!-- text 위계 -->
+                <a href="https://www.google.com" target="blank">a tag is for hyper linking href means hyperlink references</a>
+            </header>
+        <hr>
+            <section> <!-- body 내부의 논리적인 구조를 설정-->
+                <h2>This is First Section.</h2>
+                <p>p tag is for <strong>paragraph</strong></p> <!-- strong br 같은 요소들을 인라인 태그라고 함-->
+                <p style="font: size 90px; color: blue;">hello</p> <!-- css의 경우 이렇게 태그 속성으로도 넣을 수 있음. inline styling이라고 함-->
+                <button>Submit</button>
+            </section>
+        </main>
+    <hr>
+        <footer>
+            <p>&copy;2026hspark html page</p>
+        </footer>
+    </body>
+</html>
